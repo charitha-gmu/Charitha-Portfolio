@@ -81,7 +81,7 @@ function SkillsComponent() {
       <h4 className="text-2xl mx-auto max-w-6xl font-semibold mt-4 py-2 sm:text-xl">
         Soft Skills
       </h4>
-      <div className="mx-auto max-w-6xl flex justify-center flex-wrap overflow-x-scroll sm:flex-nowrap">
+      <div className="mx-auto max-w-6xl flex justify-center flex-wrap overflow-x-scroll sm:flex-nowrap sm:justify-normal">
         {softSkills?.map((skill, index) => {
           return (
             <SoftSkillCard

@@ -59,7 +59,7 @@ function ProjectsComponent() {
       <h2 className="text-3xl mx-auto max-w-6xl font-bold mt-4 py-2 sm:text-2xl">
         Projects
       </h2>
-      <div className="mx-auto max-w-6xl lg:max-w-6xl flex justify-center flex-wrap sm:flex-nowrap">
+      <div className="mx-auto max-w-6xl lg:max-w-6xl flex justify-center flex-wrap sm:flex-nowrap sm:flex-col">
         {projects.map((project, index) => {
           return <ProjectCard key={index} projectDetails={project} />;
         })}
