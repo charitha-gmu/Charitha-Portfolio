@@ -80,13 +80,7 @@ function Navbar() {
             {navigation.map((item) => (
               <a
                 key={item.name}
-                href={
-                  item.id === "home"
-                    ? "./"
-                    : window.location.pathname === "/"
-                    ? `#${item.id}`
-                    : `/${item.id}`
-                }
+                href={item.id === "home" ? "./" : `#${item.id}`}
                 onClick={(e) => {
                   if (item.id === "home") setMobileMenuOpen(false);
                   if (window.location.pathname !== "/") {
@@ -184,13 +178,7 @@ function Navbar() {
                   {navigation.map((item) => (
                     <a
                       key={item.name}
-                      href={
-                        item.id === "home"
-                          ? "./"
-                          : window.location.pathname === "/"
-                          ? `#${item.id}`
-                          : `/${item.id}`
-                      }
+                      href={item.id === "home" ? "./" : `#${item.id}`}
                       onClick={(e) => {
                         if (item.id === "home") setMobileMenuOpen(false);
                         if (window.location.pathname !== "/") {
