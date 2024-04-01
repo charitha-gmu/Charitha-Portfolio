@@ -76,7 +76,7 @@ function Footer() {
           </Link>
 
           <div className="mx-3">
-            <Link href="/documents/Sree_Charitha_Meka_Resume_Final.pdf" target="_blank">
+            <Link href="/documents/Charitha_Resume.pdf" target="_blank">
               <button
                 className={
                   resolvedTheme === "white"

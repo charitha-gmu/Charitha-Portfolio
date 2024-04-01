@@ -119,7 +119,7 @@ function IntroSection() {
 
                     <div className="mx-5">
                       <Link
-                        href="/documents/Sree_Charitha_Meka_Resume_Final.pdf"
+                        href="/documents/Charitha_Resume.pdf"
                         target="_blank"
                       >
                         <button
@@ -138,11 +138,15 @@ function IntroSection() {
               </div>
             </div>
           </div>
-          
+
           <div className="flex justify-center mx-8 sm:pt-12">
             <div className="flex justify-center mt-8">
               <img
-                src={resolvedTheme === "dark" ? "/assets/images/MyPicDarkMode.png" : "/assets/images/MyPic.png"}
+                src={
+                  resolvedTheme === "dark"
+                    ? "/assets/images/MyPicDarkMode.png"
+                    : "/assets/images/MyPic.png"
+                }
                 alt="ProfilePic"
                 className="w-full max-w-sm md:max-w-none rounded-full shadow-xl ring-1 ring-gray-400/10"
                 width={250}
