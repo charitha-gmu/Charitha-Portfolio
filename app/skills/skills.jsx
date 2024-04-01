@@ -7,7 +7,7 @@ function SkillsComponent() {
 
   const technicalSkills = [
     // C, JavaScript, Typescript, Python, HTML, CSS, React, React Native, Node.js, Jest, Sequelize, Express
-    { name: "C", imageUrl: "/assets/images/c.png" },
+    { name: "C", imageUrl: "/assets/images/C.png" },
     { name: "Javascript", imageUrl: "/assets/svgs/javascript.svg" },
     { name: "Typescript", imageUrl: "/assets/svgs/typescript.svg" },
     { name: "Python", imageUrl: "/assets/svgs/python.svg" },

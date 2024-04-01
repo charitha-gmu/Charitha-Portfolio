@@ -51,7 +51,7 @@ const educationDetails = [
 export default function EducationComponent() {
   return (
     <>
-      <h2 className="text-3xl mx-auto max-w-6xl  font-bold mt-4 py-2 sm:text-2xl">
+      <h2 className="text-3xl mx-auto max-w-6xl font-bold mt-4 py-2 sm:text-2xl">
         Education
       </h2>
       <div className="mx-auto max-w-6xl lg:max-w-6xl">
@@ -62,9 +62,9 @@ export default function EducationComponent() {
           return (
             <div
               key={index}
-              className="mt-8 flex border-2 rounded-xl text-justify border-black p-8 w-100 sm:flex-col dark:border-white"
+              className="mt-8 flex shadow-2xl rounded-xl text-justify border-black p-8 w-100 sm:flex-col dark:border-white"
             >
-              <div className="flex flex-col w-1/3 border-r border-black items-center justify-center sm:flex-row sm:w-full sm:border-0 sm:mb-4 dark:border-white">
+              <div className="flex flex-col w-1/3  border-black items-center justify-center sm:flex-row sm:w-full sm:border-0 sm:mb-4 dark:border-white">
                 <img
                   src={education.logo}
                   alt={education.universityName}

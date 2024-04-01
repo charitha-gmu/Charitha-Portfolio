@@ -48,7 +48,7 @@ const experience = [
 function ExperienceComponent() {
   return (
     <>
-      <h2 className="text-3xl mx-auto max-w-6xl  font-bold mt-4 py-2 sm:text-2xl">
+      <h2 className="text-3xl mx-auto max-w-6xl font-bold mt-4 py-2 sm:text-2xl">
         Experience
       </h2>
       <div className="mx-auto max-w-6xl lg:max-w-6xl">
@@ -56,7 +56,7 @@ function ExperienceComponent() {
           return (
             <div
               key={index}
-              className="mt-8 flex border-2 rounded-xl border-black p-8 w-100 sm:flex-col dark:border-white"
+              className="mt-8 flex shadow-2xl rounded-xl p-8 w-100 sm:flex-col dark:border-white"
             >
               <div className=" sm:flex-row sm:w-full sm:border-0 sm:mb-4 dark:border-white">
                 <div className="flex items-center sm:flex-col sm:justify-center">
