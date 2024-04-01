@@ -22,11 +22,14 @@ module.exports = {
       //tablets
       md: { min: "768px", max: "992px" },
       //small desktops
-      lg: { min: "993px"},
+      lg: { min: "993px" },
       //desktops
       // xl: { min: "1280px", max: "1535px" },
       // //large desktops
       // "2xl": { min: "1536px" },
+    },
+    boxShadow: {
+      white: "0 1px 2px 0 #ffffff, 0 1px 2px 0 #ffffff",
     },
   },
   plugins: [],
