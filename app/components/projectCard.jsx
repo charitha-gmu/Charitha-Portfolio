@@ -2,7 +2,7 @@
 function ProjectCard(props) {
   const { name, imageUrl, link, techStack, description } = props.projectDetails;
   return (
-    <div className="w-72 h-192 shadow-2xl flex flex-col justify-center items-center m-8 p-6 relative group dark:border-2 border-white rounded">
+    <div className="w-72 h-192 shadow-lg flex flex-col justify-center items-center m-8 p-6 relative group dark:border-2 border-white rounded">
       <img src={imageUrl} alt="skill" className=""></img>
       <div class="text-[20px] text-black dark:text-white font-bold py-4">
         {name}

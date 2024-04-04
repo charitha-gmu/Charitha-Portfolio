@@ -62,7 +62,7 @@ export default function EducationComponent() {
           return (
             <div
               key={index}
-              className="mt-8 flex shadow-2xl rounded-xl text-justify border-black p-8 w-100 sm:flex-col dark:shadow-white"
+              className="mt-8 flex shadow-lg rounded-xl text-justify p-8 w-100 sm:flex-col dark:shadow-white"
             >
               <div className="flex flex-col w-1/3  border-black items-center justify-center sm:flex-row sm:w-full sm:border-0 sm:mb-4 dark:border-white">
                 <img
