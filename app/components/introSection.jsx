@@ -119,7 +119,7 @@ function IntroSection() {
 
                     <div className="mx-5">
                       <Link
-                        href="/documents/Charitha_Resume.pdf"
+                        href="/documents/Sree_Charitha_Meka_Resume.pdf"
                         target="_blank"
                       >
                         <button
